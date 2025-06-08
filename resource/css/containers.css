@@ -1,0 +1,26 @@
+.homepageheader {
+    background-color:#bdd2ff;
+    padding:50px;
+    border-bottom: 10px solid #7696da;
+}
+
+.homepageheader table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed; /* Ensures equal spacing */
+}
+
+.homepageheader h1 {
+    color:#2e4372;
+    font-size:50px;
+}
+
+@media (max-width: 600px) {
+        .homepageheader table, .homepageheader thead, .homepageheader tbody, .homepageheader th, .homepageheader td, .homepageheader tr {
+            display: block;
+        }
+        th{
+                width: 100%;
+        box-sizing: border-box;
+    }
+}
